@@ -107,19 +107,19 @@ def txt(a, b):
   with col2:
     st.markdown(b)
 
-def txt2(a, b):
-  col1, col2 = st.columns([1,4])
-  with col1:
-    st.markdown(f'`{a}`')
-  with col2:
-    st.markdown(b)
+# def txt2(a, b):
+#   col1, col2 = st.columns([1,4])
+#   with col1:
+#     st.markdown(f'`{a}`')
+#   with col2:
+#     st.markdown(b)
 
-def txt3(a, b):
-  col1, col2 = st.columns([1,2])
-  with col1:
-    st.markdown(a)
-  with col2:
-    st.markdown(b)
+# def txt3(a, b):
+#   col1, col2 = st.columns([1,2])
+#   with col1:
+#     st.markdown(a)
+#   with col2:
+#     st.markdown(b)
   
 def txt4(a, b, c):
   col1, col2, col3 = st.columns([1.5,2,2])
@@ -132,7 +132,7 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Summary
+## :memo: Summary
 ''')
 st.info('''
 A senior geomodeller with 15 years of experience in exploration and development geology. 
@@ -144,7 +144,7 @@ A senior geomodeller with 15 years of experience in exploration and development 
 
 #####################
 st.markdown('''
-## Education
+## :books: Education
 ''')
 
 txt('**Master of Engineering** (Applied Petroleum Geology), *Ho Chi Minh University of Technology, Vietnam*','2009-2011')
@@ -153,7 +153,7 @@ txt('**Bachelor of Engineering** (Geology), *Ho Chi Minh University of Technolog
 
 #####################
 st.markdown('''
-## Work Experience
+## :computer: Work Experience
 ''')
 
 txt('**Senior Geomodeller/Geoscientist**, `JX Nippon Oil & Gas Exploration (Malaysia) Ltd`','`2014-Present`')
@@ -213,7 +213,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Competency and Skills
+## :hammer: Competency and Skills
 ''')
 
 st.markdown('''
@@ -266,7 +266,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## References
+## :phone: References
 ''')
 txt4('1. DOAN HONG THANG', 'Principal Geologist-Leap Energy, Malaysia', 'email: thangdh73@gmail.com')
 txt4('2. Do THI LOAN ', 'Senior Reservoir Engineer-Premier Oil, Vietnam', 'email: dtloan_tb@yahoo.com')
