@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+
+* {font-family: 'Arial';}
+
+
+a {
+    text-decoration: none;
+    color: rgb(26, 79, 141) !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+/* ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+} */
+
+/* ul {
+    padding-left: 1.5rem;
+  }
+
+h1 {
+    text-align:center;
+}
+
+h5 {
+    text-align:center;
+}
+
+img {
+    margin-left: 17.2rem;
+} */
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
